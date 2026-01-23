@@ -9,8 +9,6 @@ This repository showcases **real-world QA automation practices** including:
 - Flaky UI handling
 - Clear reporting with screenshots, videos, and traces
 
-Designed specifically for **QA Automation / SDET interview demonstrations**.
-
 ---
 
 ## Application Under Test
