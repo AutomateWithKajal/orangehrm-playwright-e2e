@@ -7,7 +7,6 @@ const sidebar = (page) => {
   };
 
   const getVisibleMenuNames = async () => {
-    // Works well on OrangeHRM: sidebar links are role=link
     const links = menu.getByRole("link");
     const count = await links.count();
     const names = [];
@@ -15,7 +14,6 @@ const sidebar = (page) => {
       const t = (await links.nth(i).innerText()).trim();
       if (t) names.push(t);
     }
-    // de-duplicate
     return [...new Set(names)];
   };
 
